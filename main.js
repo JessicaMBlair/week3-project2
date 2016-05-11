@@ -91,9 +91,9 @@ console.log(temperature);
 //    HINT: Google charAt()
 
 function countBs (str) {
-	var amountOfBs = 0;
+	var amountOfBs = '';
 	for (var i = 0; i < str.length; i++) {
-		if (str.charAt(i)==='B') {
+		if (str.charAt[i]==='B') {
 			amountOfBs++;
 		}
 	}
@@ -107,7 +107,7 @@ countBs('bdfbbBNBBBkdjvbkjba');
 //    second argument that indicates what character is to be counted.
 
 function countChars (str, character) {
-	var amountOfChars = 0;
+	var amountOfChars = '';
 	for (var i = 0; i < str.length; i++) {
 		if (str.charAt(i) === character) {
 			amountOfChars++;
