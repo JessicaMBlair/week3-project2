@@ -57,11 +57,13 @@ multiply(numArray);
 var words = ["window", "table", "cup", "knife", "barstool", "glass", "charger", "outlet"];
 
 function filterSixPlus(array) {
+	var results = [];
 	for (i=0; i < array.length; i++) {
-			if (array[i].length <= 6) {
-			delete (array[i]);
+		if (array[i].length >= 6) {
+		results.push(array[i]);
 		}
 	}
+	return results;
 }
 filterSixPlus(words);
 console.log(words);
